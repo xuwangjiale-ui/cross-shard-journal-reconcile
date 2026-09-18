@@ -1,0 +1,74 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.3.5"
+        },
+        "summary": {
+            "tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1789678488.2351184,
+            "stop": 1789678488.3196723
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_accounts_match_gold",
+                "status": "passed",
+                "duration": 0.00045419700001048113,
+                "start": 1789678488.2882652,
+                "stop": 1789678488.2895393,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_summary_match_gold",
+                "status": "passed",
+                "duration": 0.0004350049999999328,
+                "start": 1789678488.290596,
+                "stop": 1789678488.295715,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_pending_transfers_match_gold",
+                "status": "passed",
+                "duration": 0.0007454939999860244,
+                "start": 1789678488.3006845,
+                "stop": 1789678488.3049662,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_closed_accounts_omitted",
+                "status": "passed",
+                "duration": 0.0007252909999948542,
+                "start": 1789678488.30762,
+                "stop": 1789678488.3106296,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_idempotency_not_double_applied",
+                "status": "passed",
+                "duration": 0.0006439999999940937,
+                "start": 1789678488.312643,
+                "stop": 1789678488.3154666,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_orphan_transfer_does_not_debit",
+                "status": "passed",
+                "duration": 0.0005386130000033518,
+                "start": 1789678488.317055,
+                "stop": 1789678488.319549,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            }
+        ]
+    }
+}

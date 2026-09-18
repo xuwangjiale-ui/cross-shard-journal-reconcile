@@ -1,0 +1,42 @@
+Traceback (most recent call last):
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python3[REDACTED]2\Lib\site-packages\harbor\trial\trial.py", line 4[REDACTED]5, in run
+    await self._prepare()
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python3[REDACTED]2\Lib\site-packages\harbor\trial\trial.py", line 459, in _prepare
+    await self._setup_agent()
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python3[REDACTED]2\Lib\site-packages\harbor\trial\trial.py", line [REDACTED]574, in _setup_agent
+    await asyncio.wait_for(
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python3[REDACTED]2\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python3[REDACTED]2\Lib\site-packages\harbor\agents\installed\base.py", line [REDACTED]050, in setup
+    await self.install(environment)
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python3[REDACTED]2\Lib\site-packages\harbor\agents\installed\codex.py", line 353, in install
+    await self.exec_as_agent(
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python3[REDACTED]2\Lib\site-packages\harbor\agents\installed\base.py", line 995, in exec_as_agent
+    return await self._exec(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python3[REDACTED]2\Lib\site-packages\harbor\agents\installed\base.py", line 962, in _exec
+    raise self._classify_exec_error(command, result)
+harbor.agents.installed.base.NonZeroAgentExitCodeError: Command failed (exit [REDACTED]): set -euo pipefail; if ldd --version 2>&[REDACTED] | grep -qi musl || [ -f /etc/alpine-release ]; then  npm install -g @openai/codex@latest; else  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash &&  export NVM_DIR="$HOME/.nvm" &&  \. "$NVM_DIR/nvm.sh" || true &&  command -v nvm &>/dev/null || { echo 'Error: NVM failed to load' >&2; exit [REDACTED]; } &&  nvm install 22 && nvm alias default 22 && npm -v &&  npm install -g @openai/codex@latest; fi && codex --version
+stdout:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+[REDACTED]00 [REDACTED]663[REDACTED]  [REDACTED] ... [4270 chars truncated] ...  v22.23.2 *)
+[REDACTED]0.9.8
+
+added [REDACTED] package in 5s
+file:///root/.nvm/versions/node/v22.23.2/lib/node_modules/@openai/codex/bin/codex.js:[REDACTED]07
+  throw new Error(
+        ^
+
+Error: Missing optional dependency @openai/codex-linux-x64. Reinstall Codex: npm install -g @openai/codex@latest
+    at findCodexExecutable (file:///root/.nvm/versions/node/v22.23.2/lib/node_modules/@openai/codex/bin/codex.js:[REDACTED]07:9)
+    at file:///root/.nvm/versions/node/v22.23.2/lib/node_modules/@openai/codex/bin/codex.js:[REDACTED][REDACTED]2:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:68[REDACTED]:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:[REDACTED][REDACTED]7:5)
+
+Node.js v22.23.2
+
+stderr: None

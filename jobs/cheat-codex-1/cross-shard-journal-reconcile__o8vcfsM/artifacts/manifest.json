@@ -1,0 +1,34 @@
+[
+  {
+    "source": "/logs/artifacts",
+    "destination": "artifacts/logs/artifacts",
+    "type": "directory",
+    "status": "empty",
+    "service": null,
+    "exclude": []
+  },
+  {
+    "source": "/app/output/accounts.json",
+    "destination": "artifacts/app/output/accounts.json",
+    "type": "file",
+    "status": "failed",
+    "service": null,
+    "exclude": []
+  },
+  {
+    "source": "/app/output/summary.json",
+    "destination": "artifacts/app/output/summary.json",
+    "type": "file",
+    "status": "failed",
+    "service": null,
+    "exclude": []
+  },
+  {
+    "source": "/app/output/pending_transfers.json",
+    "destination": "artifacts/app/output/pending_transfers.json",
+    "type": "file",
+    "status": "failed",
+    "service": null,
+    "exclude": []
+  }
+]

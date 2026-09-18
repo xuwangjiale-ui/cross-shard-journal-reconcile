@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python3[REDACTED]2\Lib\site-packages\harbor\trial\trial.py", line 4[REDACTED]8, in run
+    await self._run()
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python3[REDACTED]2\Lib\site-packages\harbor\trial\single_step.py", line 4[REDACTED], in _run
+    await self._run_agent()
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python3[REDACTED]2\Lib\site-packages\harbor\trial\single_step.py", line 77, in _run_agent
+    await self._run_agent_phase(
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python3[REDACTED]2\Lib\site-packages\harbor\trial\trial.py", line 554, in _run_agent_phase
+    await asyncio.wait_for(
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python3[REDACTED]2\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python3[REDACTED]2\Lib\site-packages\harbor\agents\installed\base.py", line [REDACTED]86, in wrapper
+    return await fn(self, instruction, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python3[REDACTED]2\Lib\site-packages\harbor\agents\installed\codex.py", line [REDACTED]349, in run
+    auth_json_path = self._resolve_auth_json_path()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python3[REDACTED]2\Lib\site-packages\harbor\agents\installed\codex.py", line [REDACTED]322, in _resolve_auth_json_path
+    raise ValueError(
+ValueError: CODEX_FORCE_AUTH_JSON is set but C:\Users\JasonXu\.codex\auth.json does not exist

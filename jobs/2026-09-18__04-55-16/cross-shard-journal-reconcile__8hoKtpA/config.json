@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "tasks\\cross-shard-journal-reconcile"
+    },
+    "trial_name": "cross-shard-journal-reconcile__8hoKtpA",
+    "trials_dir": "jobs\\2026-09-18__04-55-16",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "fb598d44-5469-4c39-90d5-1a4dcdcfd57f"
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "amount_minor": 3000,
+    "has_in": false,
+    "has_out": true,
+    "in_account": null,
+    "out_account": "acc-gamma",
+    "transfer_id": "T-404"
+  }
+]
