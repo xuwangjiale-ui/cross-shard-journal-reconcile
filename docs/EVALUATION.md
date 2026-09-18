@@ -219,6 +219,4 @@ Artifacts copied to `results/oracle-result.json`, `results/nop-result.json`, `re
 
 ## 7. What remains for a complete Klavis packet
 
-1. Update author email / `relevant_experience` in `task.toml` before submission.
-2. Push to your own GitHub remote when ready (skipped in this session).
-3. Optional: official TB3 static checks / `harbor check` (the TB3 repo was not cloned here).
+1. Optional: official TB3 static checks / `harbor check` (the TB3 repo was not cloned here).

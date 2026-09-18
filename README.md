@@ -71,4 +71,4 @@ Agent / adversarial trial commands are documented in [`docs/EVALUATION.md`](docs
 
 ## Author metadata
 
-Edit `tasks/cross-shard-journal-reconcile/task.toml` `[metadata]` (`author_email`, `relevant_experience`) before sending to Klavis.
+Author email in `tasks/cross-shard-journal-reconcile/task.toml` is `xuwangjiale@gmail.com`.

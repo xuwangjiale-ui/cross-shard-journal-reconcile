@@ -19,6 +19,5 @@ Same miss as Codex: pending T-404 in_account "acc-missing" instead of null. No e
 DeepSeek cheat:
 - jobs/cheat-deepseek-1 ...__953BBVr reward=0.0 (no exception)
 
-Still needed before a submission packet:
-- Replace placeholder author_email / relevant_experience in task.toml
-- GitHub upload (skipped)
+Author email: xuwangjiale@gmail.com
+GitHub: https://github.com/xuwangjiale-ui/cross-shard-journal-reconcile
