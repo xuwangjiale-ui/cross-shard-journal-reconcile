@@ -1,0 +1,55 @@
+WARNING: proceeding, even though we could not create PATH aliases: Refusing to create helper binaries under temporary dir "/tmp" (codex_home: AbsolutePathBuf("/tmp/codex-home"))
+Reading additional input from stdin...
+2026-09-23T[REDACTED]4:36:45.807587Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+2026-09-23T[REDACTED]4:36:45.90[REDACTED]264Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+{"type":"thread.started","thread_id":"0[REDACTED]a0ceb2-97cd-77[REDACTED]0-a5dd-574b9abb8c03"}
+{"type":"turn.started"}
+2026-09-23T[REDACTED]4:37:07.009703Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)")))
+2026-09-23T[REDACTED]4:37:[REDACTED]5.9[REDACTED]6736Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)")))
+2026-09-23T[REDACTED]4:37:36.980479Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)")))
+2026-09-23T[REDACTED]4:37:45.9[REDACTED]5[REDACTED]89Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when Client(HttpRequest(HttpRequest("http/request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)")))
+{"type":"error","message":"Reconnecting... 2/5 (request timed out)"}
+{"type":"error","message":"Reconnecting... 3/5 (request timed out)"}
+{"type":"error","message":"Reconnecting... 4/5 (request timed out)"}
+{"type":"error","message":"Reconnecting... 5/5 (request timed out)"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Falling back from WebSockets to HTTPS transport. request timed out"}}
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+2026-09-23T[REDACTED]4:4[REDACTED]:20.795599Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+2026-09-23T[REDACTED]4:45:55.782089Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+2026-09-23T[REDACTED]4:50:30.772299Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+2026-09-23T[REDACTED]4:55:05.76[REDACTED]49[REDACTED]Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+2026-09-23T[REDACTED]4:59:40.750958Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+{"type":"error","message":"Reconnecting... [REDACTED]/5 (unexpected status 403 Forbidden: <html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=[REDACTED]\" />\n    <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-direction:column;height:[REDACTED]00%;justify-content:center;width:[REDACTED]00%}@keyframes enlarge-appear{0%{opacity:0;transform:scale(75%) rotate(-90deg)}to{opacity:[REDACTED];transform:scale([REDACTED]00%) rotate(0deg)}}.logo{color:#8e8ea0;padding-bottom:[REDACTED].5rem}.scale-appear{animation:enlarge-appear .4s ease-out}@media (min-width:768px){.scale-appear{height:48px;width:48px}}.data:empty{display:none}.data{border-radius:5px;color:#8e8ea0;max-width:420px;text-align:center;width:[REDACTED]00%}.data ul{list-style:none;padding:0}.blocked-icon{color:#ef4444}.message{align-items:center;display:flex;font-size:[REDACTED].5rem;gap:[REDACTED]rem;justify-content:center}.explanation{font-size:.9rem;line-height:[REDACTED].5;max-width:420px;opacity:50%;text-align:center;width:[REDACTED]00%}.explanation a{color:#000}@media (prefers-color-scheme:dark){body{background-color:#34354[REDACTED];c..., url: https://chatgpt.com/backend-api/codex/responses, cf-ray: a3fa6f8acb80a3dd-SIN)"}
+{"type":"error","message":"Reconnecting... 2/5 (unexpected status 403 Forbidden: <html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=[REDACTED]\" />\n    <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-direction:column;height:[REDACTED]00%;justify-content:center;width:[REDACTED]00%}@keyframes enlarge-appear{0%{opacity:0;transform:scale(75%) rotate(-90deg)}to{opacity:[REDACTED];transform:scale([REDACTED]00%) rotate(0deg)}}.logo{color:#8e8ea0;padding-bottom:[REDACTED].5rem}.scale-appear{animation:enlarge-appear .4s ease-out}@media (min-width:768px){.scale-appear{height:48px;width:48px}}.data:empty{display:none}.data{border-radius:5px;color:#8e8ea0;max-width:420px;text-align:center;width:[REDACTED]00%}.data ul{list-style:none;padding:0}.blocked-icon{color:#ef4444}.message{align-items:center;display:flex;font-size:[REDACTED].5rem;gap:[REDACTED]rem;justify-content:center}.explanation{font-size:.9rem;line-height:[REDACTED].5;max-width:420px;opacity:50%;text-align:center;width:[REDACTED]00%}.explanation a{color:#000}@media (prefers-color-scheme:dark){body{background-color:#34354[REDACTED];c..., url: https://chatgpt.com/backend-api/codex/responses, cf-ray: a3fa6f8f5bc3604c-SIN)"}
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+2026-09-23T[REDACTED]5:04:[REDACTED]4.[REDACTED]4092[REDACTED]Z ERROR codex_models_manager::manager: failed to refresh available models: Connection failed: error sending request
+{"type":"error","message":"Reconnecting... 3/5 (unexpected status 403 Forbidden: <html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=[REDACTED]\" />\n    <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-direction:column;height:[REDACTED]00%;justify-content:center;width:[REDACTED]00%}@keyframes enlarge-appear{0%{opacity:0;transform:scale(75%) rotate(-90deg)}to{opacity:[REDACTED];transform:scale([REDACTED]00%) rotate(0deg)}}.logo{color:#8e8ea0;padding-bottom:[REDACTED].5rem}.scale-appear{animation:enlarge-appear .4s ease-out}@media (min-width:768px){.scale-appear{height:48px;width:48px}}.data:empty{display:none}.data{border-radius:5px;color:#8e8ea0;max-width:420px;text-align:center;width:[REDACTED]00%}.data ul{list-style:none;padding:0}.blocked-icon{color:#ef4444}.message{align-items:center;display:flex;font-size:[REDACTED].5rem;gap:[REDACTED]rem;justify-content:center}.explanation{font-size:.9rem;line-height:[REDACTED].5;max-width:420px;opacity:50%;text-align:center;width:[REDACTED]00%}.explanation a{color:#000}@media (prefers-color-scheme:dark){body{background-color:#34354[REDACTED];c..., url: https://chatgpt.com/backend-api/codex/responses, cf-ray: a3fa7[REDACTED]9e8bbbce67-SIN)"}
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+2026-09-23T[REDACTED]5:08:49.[REDACTED]27[REDACTED]00Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+2026-09-23T[REDACTED]5:[REDACTED]3:24.[REDACTED][REDACTED]4645Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+2026-09-23T[REDACTED]5:[REDACTED]7:59.099952Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+2026-09-23T[REDACTED]5:22:34.084846Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+2026-09-23T[REDACTED]5:27:09.070879Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+2026-09-23T[REDACTED]5:3[REDACTED]:44.056900Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+2026-09-23T[REDACTED]5:36:[REDACTED]9.045250Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit

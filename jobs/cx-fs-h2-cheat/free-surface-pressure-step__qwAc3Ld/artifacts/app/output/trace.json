@@ -1,0 +1,17 @@
+[
+  {
+    "step": [REDACTED].0,
+    "pressure_abs_max": 0.880[REDACTED]723872750[REDACTED]5[REDACTED],
+    "div_abs_max": 0.[REDACTED]0329680[REDACTED]7360[REDACTED]768
+  },
+  {
+    "step": 2.0,
+    "pressure_abs_max": 0.759730[REDACTED]46087389,
+    "div_abs_max": 0.085243[REDACTED]977468427
+  },
+  {
+    "step": 3.0,
+    "pressure_abs_max": 0.6299546478022743,
+    "div_abs_max": 0.072735003[REDACTED]8046372
+  }
+]
