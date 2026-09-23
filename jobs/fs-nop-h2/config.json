@@ -1,0 +1,13 @@
+{
+    "job_name": "fs-nop-h2",
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "tasks\\free-surface-pressure-step"
+        }
+    ]
+}

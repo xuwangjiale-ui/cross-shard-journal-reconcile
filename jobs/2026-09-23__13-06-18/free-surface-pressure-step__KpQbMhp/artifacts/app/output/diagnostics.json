@@ -1,0 +1,8 @@
+{
+  "all_finite": 1.0,
+  "div_abs_max": 0.06631435030255839,
+  "pressure_abs_max": 0.8361469171164644,
+  "surface_abs_max": 0.0,
+  "surface_ghost_abs_max": 0.0,
+  "wall_ghost_abs_max": 4.163336342344337e-17
+}

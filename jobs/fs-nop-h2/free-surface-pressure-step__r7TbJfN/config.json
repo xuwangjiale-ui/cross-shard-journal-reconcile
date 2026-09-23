@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "tasks\\free-surface-pressure-step"
+    },
+    "trial_name": "free-surface-pressure-step__r7TbJfN",
+    "trials_dir": "jobs\\fs-nop-h2",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "e5e3e7ed-9467-4249-adf1-99f0b0cab2e4"
+}

@@ -1,0 +1,11 @@
+{
+    "environment": {
+        "type": "docker",
+        "force_build": true
+    },
+    "tasks": [
+        {
+            "path": "tasks\\free-surface-pressure-step"
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+Agent 'nop' does not declare an options_model; leftover kwargs are ignored
+Skipping image OS validation for hb__0f0ef3c274e9b79ca64bbf2cf734fc3e: docker inspect returned 1
+Collecting main service artifacts
+compose cp failed; retrying download with engine cp: Docker compose command failed for environment free-surface-pressure-step. Command: docker compose --project-name free-surface-pressure-step__r7tbjfn__env --project-directory C:\Users\JasonXu\Desktop\Klavis AI\tasks\free-surface-pressure-step\environment -f C:\Users\JasonXu\AppData\Local\Temp\tmp3eo7zsia\free-surface-pressure-step__r7TbJfN__env-docker-compose-resources.json -f C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker-compose-build.yaml -f C:\Users\JasonXu\AppData\Local\Temp\tmpx9cjns66\docker-compose-environment.json -f C:\Users\JasonXu\AppData\Local\Temp\tmplzglbsuk\docker-compose-mounts.json cp main:/app/output/evolve.py jobs\fs-nop-h2\free-surface-pressure-step__r7TbJfN\artifacts\app\output\evolve.py. Return code: 1. Stdout:  free-surface-pressure-step__r7tbjfn__env-main-1 Copying free-surface-pressure-step__r7tbjfn__env-main-1:/app/output/evolve.py to jobs\fs-nop-h2\free-surface-pressure-step__r7TbJfN\artifacts\app\output\evolve.py
+invalid output path: directory "C:\\Users\\JasonXu\\Desktop\\Klavis AI\\tasks\\free-surface-pressure-step\\environment\\jobs\\fs-nop-h2\\free-surface-pressure-step__r7TbJfN\\artifacts\\app\\output" does not exist
+. Stderr: None. 
+Failed to download artifact '/app/output/evolve.py' from service 'main' (best-effort)
+Traceback (most recent call last):
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\trial\artifact_handler.py", line 313, in _download_artifact
+    await source_env.service_download_file(
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker.py", line 1205, in service_download_file
+    await self.download_file(source_path, target_path)
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker.py", line 1190, in download_file
+    await self._platform.download_file(source_path, target_path)
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker_unix.py", line 256, in download_file
+    await self._download_via_engine_cp(source_path, target_path, service)
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker_unix.py", line 235, in _download_via_engine_cp
+    await self._engine_cp(f"{container}:{container_path}", str(target_path))
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker_unix.py", line 226, in _engine_cp
+    raise RuntimeError(
+RuntimeError: Engine cp failed ('1bf5107e3af1:/app/output/evolve.py' -> 'jobs\\fs-nop-h2\\free-surface-pressure-step__r7TbJfN\\artifacts\\app\\output\\evolve.py'): Error response from daemon: Could not find the file /app/output/evolve.py in container 1bf5107e3af1
+
+compose cp failed; retrying download with engine cp: Docker compose command failed for environment free-surface-pressure-step. Command: docker compose --project-name free-surface-pressure-step__r7tbjfn__env --project-directory C:\Users\JasonXu\Desktop\Klavis AI\tasks\free-surface-pressure-step\environment -f C:\Users\JasonXu\AppData\Local\Temp\tmp3eo7zsia\free-surface-pressure-step__r7TbJfN__env-docker-compose-resources.json -f C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker-compose-build.yaml -f C:\Users\JasonXu\AppData\Local\Temp\tmpx9cjns66\docker-compose-environment.json -f C:\Users\JasonXu\AppData\Local\Temp\tmplzglbsuk\docker-compose-mounts.json cp main:/app/output/pressure.json jobs\fs-nop-h2\free-surface-pressure-step__r7TbJfN\artifacts\app\output\pressure.json. Return code: 1. Stdout:  free-surface-pressure-step__r7tbjfn__env-main-1 Copying free-surface-pressure-step__r7tbjfn__env-main-1:/app/output/pressure.json to jobs\fs-nop-h2\free-surface-pressure-step__r7TbJfN\artifacts\app\output\pressure.json
+invalid output path: directory "C:\\Users\\JasonXu\\Desktop\\Klavis AI\\tasks\\free-surface-pressure-step\\environment\\jobs\\fs-nop-h2\\free-surface-pressure-step__r7TbJfN\\artifacts\\app\\output" does not exist
+. Stderr: None. 
+Failed to download artifact '/app/output/pressure.json' from service 'main' (best-effort)
+Traceback (most recent call last):
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\trial\artifact_handler.py", line 313, in _download_artifact
+    await source_env.service_download_file(
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker.py", line 1205, in service_download_file
+    await self.download_file(source_path, target_path)
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker.py", line 1190, in download_file
+    await self._platform.download_file(source_path, target_path)
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker_unix.py", line 256, in download_file
+    await self._download_via_engine_cp(source_path, target_path, service)
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker_unix.py", line 235, in _download_via_engine_cp
+    await self._engine_cp(f"{container}:{container_path}", str(target_path))
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker_unix.py", line 226, in _engine_cp
+    raise RuntimeError(
+RuntimeError: Engine cp failed ('1bf5107e3af1:/app/output/pressure.json' -> 'jobs\\fs-nop-h2\\free-surface-pressure-step__r7TbJfN\\artifacts\\app\\output\\pressure.json'): Error response from daemon: Could not find the file /app/output/pressure.json in container 1bf5107e3af1
+
+compose cp failed; retrying download with engine cp: Docker compose command failed for environment free-surface-pressure-step. Command: docker compose --project-name free-surface-pressure-step__r7tbjfn__env --project-directory C:\Users\JasonXu\Desktop\Klavis AI\tasks\free-surface-pressure-step\environment -f C:\Users\JasonXu\AppData\Local\Temp\tmp3eo7zsia\free-surface-pressure-step__r7TbJfN__env-docker-compose-resources.json -f C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker-compose-build.yaml -f C:\Users\JasonXu\AppData\Local\Temp\tmpx9cjns66\docker-compose-environment.json -f C:\Users\JasonXu\AppData\Local\Temp\tmplzglbsuk\docker-compose-mounts.json cp main:/app/output/velocity.json jobs\fs-nop-h2\free-surface-pressure-step__r7TbJfN\artifacts\app\output\velocity.json. Return code: 1. Stdout:  free-surface-pressure-step__r7tbjfn__env-main-1 Copying free-surface-pressure-step__r7tbjfn__env-main-1:/app/output/velocity.json to jobs\fs-nop-h2\free-surface-pressure-step__r7TbJfN\artifacts\app\output\velocity.json
+invalid output path: directory "C:\\Users\\JasonXu\\Desktop\\Klavis AI\\tasks\\free-surface-pressure-step\\environment\\jobs\\fs-nop-h2\\free-surface-pressure-step__r7TbJfN\\artifacts\\app\\output" does not exist
+. Stderr: None. 
+Failed to download artifact '/app/output/velocity.json' from service 'main' (best-effort)
+Traceback (most recent call last):
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\trial\artifact_handler.py", line 313, in _download_artifact
+    await source_env.service_download_file(
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker.py", line 1205, in service_download_file
+    await self.download_file(source_path, target_path)
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker.py", line 1190, in download_file
+    await self._platform.download_file(source_path, target_path)
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker_unix.py", line 256, in download_file
+    await self._download_via_engine_cp(source_path, target_path, service)
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker_unix.py", line 235, in _download_via_engine_cp
+    await self._engine_cp(f"{container}:{container_path}", str(target_path))
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker_unix.py", line 226, in _engine_cp
+    raise RuntimeError(
+RuntimeError: Engine cp failed ('1bf5107e3af1:/app/output/velocity.json' -> 'jobs\\fs-nop-h2\\free-surface-pressure-step__r7TbJfN\\artifacts\\app\\output\\velocity.json'): Error response from daemon: Could not find the file /app/output/velocity.json in container 1bf5107e3af1
+
+compose cp failed; retrying download with engine cp: Docker compose command failed for environment free-surface-pressure-step. Command: docker compose --project-name free-surface-pressure-step__r7tbjfn__env --project-directory C:\Users\JasonXu\Desktop\Klavis AI\tasks\free-surface-pressure-step\environment -f C:\Users\JasonXu\AppData\Local\Temp\tmp3eo7zsia\free-surface-pressure-step__r7TbJfN__env-docker-compose-resources.json -f C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker-compose-build.yaml -f C:\Users\JasonXu\AppData\Local\Temp\tmpx9cjns66\docker-compose-environment.json -f C:\Users\JasonXu\AppData\Local\Temp\tmplzglbsuk\docker-compose-mounts.json cp main:/app/output/diagnostics.json jobs\fs-nop-h2\free-surface-pressure-step__r7TbJfN\artifacts\app\output\diagnostics.json. Return code: 1. Stdout:  free-surface-pressure-step__r7tbjfn__env-main-1 Copying free-surface-pressure-step__r7tbjfn__env-main-1:/app/output/diagnostics.json to jobs\fs-nop-h2\free-surface-pressure-step__r7TbJfN\artifacts\app\output\diagnostics.json
+invalid output path: directory "C:\\Users\\JasonXu\\Desktop\\Klavis AI\\tasks\\free-surface-pressure-step\\environment\\jobs\\fs-nop-h2\\free-surface-pressure-step__r7TbJfN\\artifacts\\app\\output" does not exist
+. Stderr: None. 
+Failed to download artifact '/app/output/diagnostics.json' from service 'main' (best-effort)
+Traceback (most recent call last):
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\trial\artifact_handler.py", line 313, in _download_artifact
+    await source_env.service_download_file(
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker.py", line 1205, in service_download_file
+    await self.download_file(source_path, target_path)
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker.py", line 1190, in download_file
+    await self._platform.download_file(source_path, target_path)
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker_unix.py", line 256, in download_file
+    await self._download_via_engine_cp(source_path, target_path, service)
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker_unix.py", line 235, in _download_via_engine_cp
+    await self._engine_cp(f"{container}:{container_path}", str(target_path))
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker_unix.py", line 226, in _engine_cp
+    raise RuntimeError(
+RuntimeError: Engine cp failed ('1bf5107e3af1:/app/output/diagnostics.json' -> 'jobs\\fs-nop-h2\\free-surface-pressure-step__r7TbJfN\\artifacts\\app\\output\\diagnostics.json'): Error response from daemon: Could not find the file /app/output/diagnostics.json in container 1bf5107e3af1
+
+compose cp failed; retrying download with engine cp: Docker compose command failed for environment free-surface-pressure-step. Command: docker compose --project-name free-surface-pressure-step__r7tbjfn__env --project-directory C:\Users\JasonXu\Desktop\Klavis AI\tasks\free-surface-pressure-step\environment -f C:\Users\JasonXu\AppData\Local\Temp\tmp3eo7zsia\free-surface-pressure-step__r7TbJfN__env-docker-compose-resources.json -f C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker-compose-build.yaml -f C:\Users\JasonXu\AppData\Local\Temp\tmpx9cjns66\docker-compose-environment.json -f C:\Users\JasonXu\AppData\Local\Temp\tmplzglbsuk\docker-compose-mounts.json cp main:/app/output/trace.json jobs\fs-nop-h2\free-surface-pressure-step__r7TbJfN\artifacts\app\output\trace.json. Return code: 1. Stdout:  free-surface-pressure-step__r7tbjfn__env-main-1 Copying free-surface-pressure-step__r7tbjfn__env-main-1:/app/output/trace.json to jobs\fs-nop-h2\free-surface-pressure-step__r7TbJfN\artifacts\app\output\trace.json
+invalid output path: directory "C:\\Users\\JasonXu\\Desktop\\Klavis AI\\tasks\\free-surface-pressure-step\\environment\\jobs\\fs-nop-h2\\free-surface-pressure-step__r7TbJfN\\artifacts\\app\\output" does not exist
+. Stderr: None. 
+Failed to download artifact '/app/output/trace.json' from service 'main' (best-effort)
+Traceback (most recent call last):
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\trial\artifact_handler.py", line 313, in _download_artifact
+    await source_env.service_download_file(
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker.py", line 1205, in service_download_file
+    await self.download_file(source_path, target_path)
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker.py", line 1190, in download_file
+    await self._platform.download_file(source_path, target_path)
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker_unix.py", line 256, in download_file
+    await self._download_via_engine_cp(source_path, target_path, service)
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker_unix.py", line 235, in _download_via_engine_cp
+    await self._engine_cp(f"{container}:{container_path}", str(target_path))
+  File "C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker_unix.py", line 226, in _engine_cp
+    raise RuntimeError(
+RuntimeError: Engine cp failed ('1bf5107e3af1:/app/output/trace.json' -> 'jobs\\fs-nop-h2\\free-surface-pressure-step__r7TbJfN\\artifacts\\app\\output\\trace.json'): Error response from daemon: Could not find the file /app/output/trace.json in container 1bf5107e3af1
+
+Skipping image OS validation for hb__a1b5b24ff4e0af9d5aed446876e9b998: docker inspect returned 1
+docker compose cp failed; retrying upload with tar stream: Docker compose command failed for environment free-surface-pressure-step. Command: docker compose --project-name free-surface-pressure-step__r7tbjfn__verifier__trial --project-directory C:\Users\JasonXu\Desktop\Klavis AI\tasks\free-surface-pressure-step\tests -f C:\Users\JasonXu\AppData\Local\Temp\tmpixfjsrzy\free-surface-pressure-step__r7TbJfN__verifier__trial-docker-compose-resources.json -f C:\Users\JasonXu\AppData\Local\Programs\Python\Python312\Lib\site-packages\harbor\environments\docker\docker-compose-build.yaml -f C:\Users\JasonXu\AppData\Local\Temp\tmpzkoge0e2\docker-compose-environment.json -f C:\Users\JasonXu\AppData\Local\Temp\tmphno7blyj\docker-compose-mounts.json cp jobs\fs-nop-h2\free-surface-pressure-step__r7TbJfN\artifacts\logs\artifacts/. main:/logs/artifacts. Return code: 1. Stdout:  free-surface-pressure-step__r7tbjfn__verifier__trial-main-1 Copying jobs\fs-nop-h2\free-surface-pressure-step__r7TbJfN\artifacts\logs\artifacts/. to free-surface-pressure-step__r7tbjfn__verifier__trial-main-1:/logs/artifacts
+GetFileAttributesEx C:\Users\JasonXu\Desktop\Klavis AI\tasks\free-surface-pressure-step\tests\jobs: The system cannot find the file specified.
+. Stderr: None. 

@@ -1,0 +1,12 @@
+{
+    "job_name": "fs-oracle-h2",
+    "environment": {
+        "type": "docker",
+        "force_build": true
+    },
+    "tasks": [
+        {
+            "path": "tasks\\free-surface-pressure-step"
+        }
+    ]
+}
